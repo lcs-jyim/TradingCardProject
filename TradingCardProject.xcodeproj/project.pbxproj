@@ -14,6 +14,7 @@
 		BF824C472B5DF04800B86200 /* TradingCardProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C462B5DF04800B86200 /* TradingCardProjectTests.swift */; };
 		BF824C512B5DF04800B86200 /* TradingCardProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C502B5DF04800B86200 /* TradingCardProjectUITests.swift */; };
 		BF824C532B5DF04800B86200 /* TradingCardProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C522B5DF04800B86200 /* TradingCardProjectUITestsLaunchTests.swift */; };
+		BF824C602B5DF13600B86200 /* TradeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C5F2B5DF13600B86200 /* TradeCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BF824C4C2B5DF04800B86200 /* TradingCardProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradingCardProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF824C502B5DF04800B86200 /* TradingCardProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardProjectUITests.swift; sourceTree = "<group>"; };
 		BF824C522B5DF04800B86200 /* TradingCardProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF824C5F2B5DF13600B86200 /* TradeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				BF824C3C2B5DF04800B86200 /* Preview Assets.xcassets */,
+				BF824C5F2B5DF13600B86200 /* TradeCardView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				BF824C382B5DF04700B86200 /* ContentView.swift in Sources */,
 				BF824C362B5DF04700B86200 /* TradingCardProjectApp.swift in Sources */,
+				BF824C602B5DF13600B86200 /* TradeCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
