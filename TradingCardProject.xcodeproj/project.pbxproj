@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF824C362B5DF04700B86200 /* TradingCardProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C352B5DF04700B86200 /* TradingCardProjectApp.swift */; };
+		BF824C382B5DF04700B86200 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C372B5DF04700B86200 /* ContentView.swift */; };
+		BF824C3A2B5DF04800B86200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF824C392B5DF04800B86200 /* Assets.xcassets */; };
+		BF824C3D2B5DF04800B86200 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF824C3C2B5DF04800B86200 /* Preview Assets.xcassets */; };
+		BF824C472B5DF04800B86200 /* TradingCardProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C462B5DF04800B86200 /* TradingCardProjectTests.swift */; };
+		BF824C512B5DF04800B86200 /* TradingCardProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C502B5DF04800B86200 /* TradingCardProjectUITests.swift */; };
+		BF824C532B5DF04800B86200 /* TradingCardProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C522B5DF04800B86200 /* TradingCardProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF824C432B5DF04800B86200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF824C2A2B5DF04600B86200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF824C312B5DF04700B86200;
+			remoteInfo = TradingCardProject;
+		};
+		BF824C4D2B5DF04800B86200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF824C2A2B5DF04600B86200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF824C312B5DF04700B86200;
+			remoteInfo = TradingCardProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF824C322B5DF04700B86200 /* TradingCardProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCardProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF824C352B5DF04700B86200 /* TradingCardProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardProjectApp.swift; sourceTree = "<group>"; };
+		BF824C372B5DF04700B86200 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF824C392B5DF04800B86200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF824C3C2B5DF04800B86200 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF824C422B5DF04800B86200 /* TradingCardProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradingCardProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF824C462B5DF04800B86200 /* TradingCardProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardProjectTests.swift; sourceTree = "<group>"; };
+		BF824C4C2B5DF04800B86200 /* TradingCardProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradingCardProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF824C502B5DF04800B86200 /* TradingCardProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardProjectUITests.swift; sourceTree = "<group>"; };
+		BF824C522B5DF04800B86200 /* TradingCardProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF824C2F2B5DF04700B86200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF824C3F2B5DF04800B86200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF824C492B5DF04800B86200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF824C292B5DF04600B86200 = {
+			isa = PBXGroup;
+			children = (
+				BF824C342B5DF04700B86200 /* TradingCardProject */,
+				BF824C452B5DF04800B86200 /* TradingCardProjectTests */,
+				BF824C4F2B5DF04800B86200 /* TradingCardProjectUITests */,
+				BF824C332B5DF04700B86200 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF824C332B5DF04700B86200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF824C322B5DF04700B86200 /* TradingCardProject.app */,
+				BF824C422B5DF04800B86200 /* TradingCardProjectTests.xctest */,
+				BF824C4C2B5DF04800B86200 /* TradingCardProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF824C342B5DF04700B86200 /* TradingCardProject */ = {
+			isa = PBXGroup;
+			children = (
+				BF824C352B5DF04700B86200 /* TradingCardProjectApp.swift */,
+				BF824C372B5DF04700B86200 /* ContentView.swift */,
+				BF824C392B5DF04800B86200 /* Assets.xcassets */,
+				BF824C3B2B5DF04800B86200 /* Preview Content */,
+			);
+			path = TradingCardProject;
+			sourceTree = "<group>";
+		};
+		BF824C3B2B5DF04800B86200 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF824C3C2B5DF04800B86200 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF824C452B5DF04800B86200 /* TradingCardProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF824C462B5DF04800B86200 /* TradingCardProjectTests.swift */,
+			);
+			path = TradingCardProjectTests;
+			sourceTree = "<group>";
+		};
+		BF824C4F2B5DF04800B86200 /* TradingCardProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF824C502B5DF04800B86200 /* TradingCardProjectUITests.swift */,
+				BF824C522B5DF04800B86200 /* TradingCardProjectUITestsLaunchTests.swift */,
+			);
+			path = TradingCardProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF824C312B5DF04700B86200 /* TradingCardProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF824C562B5DF04800B86200 /* Build configuration list for PBXNativeTarget "TradingCardProject" */;
+			buildPhases = (
+				BF824C2E2B5DF04700B86200 /* Sources */,
+				BF824C2F2B5DF04700B86200 /* Frameworks */,
+				BF824C302B5DF04700B86200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TradingCardProject;
+			productName = TradingCardProject;
+			productReference = BF824C322B5DF04700B86200 /* TradingCardProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF824C412B5DF04800B86200 /* TradingCardProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF824C592B5DF04800B86200 /* Build configuration list for PBXNativeTarget "TradingCardProjectTests" */;
+			buildPhases = (
+				BF824C3E2B5DF04800B86200 /* Sources */,
+				BF824C3F2B5DF04800B86200 /* Frameworks */,
+				BF824C402B5DF04800B86200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF824C442B5DF04800B86200 /* PBXTargetDependency */,
+			);
+			name = TradingCardProjectTests;
+			productName = TradingCardProjectTests;
+			productReference = BF824C422B5DF04800B86200 /* TradingCardProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF824C4B2B5DF04800B86200 /* TradingCardProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF824C5C2B5DF04800B86200 /* Build configuration list for PBXNativeTarget "TradingCardProjectUITests" */;
+			buildPhases = (
+				BF824C482B5DF04800B86200 /* Sources */,
+				BF824C492B5DF04800B86200 /* Frameworks */,
+				BF824C4A2B5DF04800B86200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF824C4E2B5DF04800B86200 /* PBXTargetDependency */,
+			);
+			name = TradingCardProjectUITests;
+			productName = TradingCardProjectUITests;
+			productReference = BF824C4C2B5DF04800B86200 /* TradingCardProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF824C2A2B5DF04600B86200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BF824C312B5DF04700B86200 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BF824C412B5DF04800B86200 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BF824C312B5DF04700B86200;
+					};
+					BF824C4B2B5DF04800B86200 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BF824C312B5DF04700B86200;
+					};
+				};
+			};
+			buildConfigurationList = BF824C2D2B5DF04600B86200 /* Build configuration list for PBXProject "TradingCardProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF824C292B5DF04600B86200;
+			productRefGroup = BF824C332B5DF04700B86200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF824C312B5DF04700B86200 /* TradingCardProject */,
+				BF824C412B5DF04800B86200 /* TradingCardProjectTests */,
+				BF824C4B2B5DF04800B86200 /* TradingCardProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF824C302B5DF04700B86200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF824C3D2B5DF04800B86200 /* Preview Assets.xcassets in Resources */,
+				BF824C3A2B5DF04800B86200 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF824C402B5DF04800B86200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF824C4A2B5DF04800B86200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF824C2E2B5DF04700B86200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF824C382B5DF04700B86200 /* ContentView.swift in Sources */,
+				BF824C362B5DF04700B86200 /* TradingCardProjectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF824C3E2B5DF04800B86200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF824C472B5DF04800B86200 /* TradingCardProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF824C482B5DF04800B86200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF824C532B5DF04800B86200 /* TradingCardProjectUITestsLaunchTests.swift in Sources */,
+				BF824C512B5DF04800B86200 /* TradingCardProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF824C442B5DF04800B86200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF824C312B5DF04700B86200 /* TradingCardProject */;
+			targetProxy = BF824C432B5DF04800B86200 /* PBXContainerItemProxy */;
+		};
+		BF824C4E2B5DF04800B86200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF824C312B5DF04700B86200 /* TradingCardProject */;
+			targetProxy = BF824C4D2B5DF04800B86200 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF824C542B5DF04800B86200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF824C552B5DF04800B86200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF824C572B5DF04800B86200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TradingCardProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 7JWCSA9B4T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.JoshYim.TradingCardProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF824C582B5DF04800B86200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TradingCardProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 7JWCSA9B4T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.JoshYim.TradingCardProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF824C5A2B5DF04800B86200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JWCSA9B4T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.JoshYim.TradingCardProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradingCardProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TradingCardProject";
+			};
+			name = Debug;
+		};
+		BF824C5B2B5DF04800B86200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JWCSA9B4T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.JoshYim.TradingCardProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradingCardProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TradingCardProject";
+			};
+			name = Release;
+		};
+		BF824C5D2B5DF04800B86200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JWCSA9B4T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.JoshYim.TradingCardProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TradingCardProject;
+			};
+			name = Debug;
+		};
+		BF824C5E2B5DF04800B86200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JWCSA9B4T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.JoshYim.TradingCardProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TradingCardProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF824C2D2B5DF04600B86200 /* Build configuration list for PBXProject "TradingCardProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF824C542B5DF04800B86200 /* Debug */,
+				BF824C552B5DF04800B86200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF824C562B5DF04800B86200 /* Build configuration list for PBXNativeTarget "TradingCardProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF824C572B5DF04800B86200 /* Debug */,
+				BF824C582B5DF04800B86200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF824C592B5DF04800B86200 /* Build configuration list for PBXNativeTarget "TradingCardProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF824C5A2B5DF04800B86200 /* Debug */,
+				BF824C5B2B5DF04800B86200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF824C5C2B5DF04800B86200 /* Build configuration list for PBXNativeTarget "TradingCardProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF824C5D2B5DF04800B86200 /* Debug */,
+				BF824C5E2B5DF04800B86200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF824C2A2B5DF04600B86200 /* Project object */;
+}
