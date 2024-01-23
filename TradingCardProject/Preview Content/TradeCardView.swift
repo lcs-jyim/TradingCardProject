@@ -15,6 +15,8 @@ struct TradeCardView: View {
             Rectangle()
                 .fill(.black)
                 .ignoresSafeArea()
+            
+            
             ZStack {
                 VStack{
                     LinearGradient(gradient: gradientColors, startPoint: .leading, endPoint: .trailing)
@@ -38,9 +40,10 @@ struct TradeCardView: View {
             VStack {
                 Rectangle()
                     .fill(.white)
+                    .frame(height:400)
                     .padding(.horizontal,20)
-                    .padding(.vertical,70)
-                    .frame(height:535)
+                    .padding(.top,70)
+                
                 
                 ScrollView(.vertical){
                     LazyVStack{
@@ -57,77 +60,59 @@ struct TradeCardView: View {
                             Text("xxxxxx")
                             Spacer()
                             Text("xxxxxxx")
-                           Spacer()
+                            Spacer()
                             Text("xxxxxxx")
                         }
-                        Text("xxx")
-                        Text("xxx")
+                        Text("""
 
-                        Text("xxx")
-
-                        Text("xxx")
-
-                        Text("xxx")
-                        Text("xxx")
+    Xxxxxxxxxxxxxxxxxxxwasdjwalszd nwalwsadl asdiwajo gsajdow agshdj waosd gwasjd waosdgwasgvbfnf oawfwasd wasdjk waisdggowasjd waisgwoasdwasduwaskgv waosd guaskdwasodwasgasidwasdjwausfiwasdgwasndwaskdiwasudwasdiwasdjwagsdiwaksh iawjsduwaisdbwasdwi asidwajsdbwasgdw a was dwaisd wjas dwaosd kwasidwasdwaswaswasw jl adwjklwadjkl adklwkljadw kljadw jkladw jkl adljkadw jkladjkwl kljadw jkladw jkladw kjladw jkl adwjklad wlkjadw ljkadw jll jkadw kladw jkladw k jladw jkl adw klj adkl jadw kl ad wklj adw kl adw kl adw kl jadw kjl adw kjl adw  jkladw kjl adw kjl adw kljadw kjladw ioadw jiijadw ij adwohiugragfehuiphuiesfhuipaefhiousefhuipsEFiphuSEFhuiSEFhuipSEFiuphESFihuSEFipuhseiuhseseIOUHsEFIUGhiuoseFhiuesFiuhsEFihuESFhiuoEFOohiuESFShiu EFS iuhESF hiuEFShiuFSEiuESFHUefSHU FSE HUihuSEF hiuEFS ihuoSEF hiuosEF hiuosEF hiu ofsEhiu oEFSHIU SEFHIU esf hiuSEF hui SEFhuio SEF hu isEF hiousEF hioufs hiouzDF Huhiu DSFihuSF i uhsfe si husefhuifesshiusefHUIEFSH UESF HIOUSEF HIUef sihuofesiuh oSEF HIusEFHIU sEF  HUEFS HUEFS HUISEFH IOUhuOEFIS uhoi EFSHUIEFSHIUE FSHUIeFHSIU huie shuief hiuefs HIUsef HIUsef HIUseFI HUoesFHIU seFHIU EFSHiuESFHIUEFSHIU ESFI HUEFSHUI ESFIHU SEFHIU EFSIUh EFSiuh esFiuh sEFhiu efhiu efsIUHseFIUH sefihu esfhiu sefhiu sef  hiusef  hiusf ei uhsefhiu  sef iu hosefhiu  sefhiu  sefiu h sefiuh sefiuhsfehiuo sef  HIUosefHIU OsefIUH sefIU Hsefiuh FEiuh ESFihu sefihu fesiu fesiu FSEiu hfsEIUH SEFHIU sefIU HesfIUH sEFIUH efsIU HesFHIU esFiuh ofseiuh sefiuh sefihu esFiuh s EFIUh EFSSIUH EFS IUHesF IUHSEF IHUOefs IUHESFIHU SEF IU HESFIUH efsHUI sEFHUI esFIU H sefiuh  esFiuh  EFSiuh esFiuhefshiuefs hiuesf HIUesF IUHFS E
+""")
                         
-                        Text("xxx")
-
-                        Text("xxx")
-
-                        Text("xxx")
-
-                        Text("xxx")
-
-                        Text("xxx")
                         Spacer()
-
                     }
-                    
-                    .frame(height:400)
-                    
+                    .foregroundColor(.white)
                 }
                 .ignoresSafeArea()
-                .background(Color.blue)
+                .background{Image("blastbackground").resizable() .opacity(0.7) }
                 .padding(.horizontal,10)
                 
             }
-        
             
             
-                Image("fzbackground")
-                    .resizable()
-
-            .padding(.horizontal,30)
-            .padding(.vertical,80)
-            .padding(.bottom,200)
+            
+            
+            Image("fzbackground")
+                .resizable()
+                .padding(.horizontal,30)
+                .padding(.vertical,80)
+                .padding(.bottom,200)
+            
+            
             Image("raincs")
                 .resizable()
                 .scaledToFit()
                 .padding(.bottom,220)
             
             
-           
+            
             
             VStack {
-                Spacer()
+                
                 HStack {
-                    Spacer()
                     ZStack {
-                        Circle()
-                            .fill(.yellow)
-                            .frame(width:100)
                         Image("fazelogo")
                             .resizable()
-                            .frame(width: 80,height:60)
+                            .frame(width: 90,height:65)
+                        
                     }
+                    Spacer()
                 }
+                Spacer()
             }
-            .padding(.horizontal,10)
-            .padding(.vertical,80)
-            .padding(.bottom,170)
+            .padding(.top,60)
             
-                        }
-        .padding(.bottom,25)
+        }
+//        .padding(.bottom,25)
     }
     
 }
