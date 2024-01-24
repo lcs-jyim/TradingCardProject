@@ -15,6 +15,7 @@
 		BF824C512B5DF04800B86200 /* TradingCardProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C502B5DF04800B86200 /* TradingCardProjectUITests.swift */; };
 		BF824C532B5DF04800B86200 /* TradingCardProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C522B5DF04800B86200 /* TradingCardProjectUITestsLaunchTests.swift */; };
 		BF824C602B5DF13600B86200 /* TradeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C5F2B5DF13600B86200 /* TradeCardView.swift */; };
+		BF824C622B609B3200B86200 /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C612B609B3200B86200 /* navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		BF824C502B5DF04800B86200 /* TradingCardProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardProjectUITests.swift; sourceTree = "<group>"; };
 		BF824C522B5DF04800B86200 /* TradingCardProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF824C5F2B5DF13600B86200 /* TradeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeCardView.swift; sourceTree = "<group>"; };
+		BF824C612B609B3200B86200 /* navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				BF824C3C2B5DF04800B86200 /* Preview Assets.xcassets */,
 				BF824C5F2B5DF13600B86200 /* TradeCardView.swift */,
+				BF824C612B609B3200B86200 /* navigation.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				BF824C382B5DF04700B86200 /* ContentView.swift in Sources */,
 				BF824C362B5DF04700B86200 /* TradingCardProjectApp.swift in Sources */,
 				BF824C602B5DF13600B86200 /* TradeCardView.swift in Sources */,
+				BF824C622B609B3200B86200 /* navigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
