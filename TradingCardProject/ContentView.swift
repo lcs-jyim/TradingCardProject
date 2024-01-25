@@ -23,8 +23,12 @@ struct ContentView: View {
                 NavigationLink(destination: Ropz){
                     Navigation(CoverPhoto: "ropz", playerName: "ropz", Discription: "The Best Rifler in the Whole World")
                 }
+                NavigationLink(destination: Frozen){
+                    Navigation(CoverPhoto: "FrozenImage", playerName: "FROZEN", Discription: "The one Who always Bring Miracles To the Competition")
+                }
             }
                 .navigationTitle("The Legends of CSGO")
+            
             
         }
         

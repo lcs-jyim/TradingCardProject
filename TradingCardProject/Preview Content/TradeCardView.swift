@@ -10,6 +10,7 @@ import SwiftUI
 
 struct TradeCardView: View {
     
+    
     let Age: Int
     let KPR: Double
     let Surviving: String
@@ -66,20 +67,28 @@ struct TradeCardView: View {
                             .foregroundStyle(LinearGradient(gradient: TextgradientColors, startPoint: .trailing, endPoint: .leading))
                             .bold()
                             .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                        
-                        
-                        
                         Spacer()
                     }
                 }
                 
                 VStack {
-                    Rectangle()
-                        .fill(.white)
-                        .frame(height:420)
-                        .padding(.horizontal,20)
-                        .padding(.top,70)
-                    
+                    ZStack{
+                        Rectangle()
+                            .fill(.white)
+                            
+                        Image("fzbackground")
+                            .resizable()
+                            .frame(height:400)
+                            .padding(.horizontal,10)
+                        Image(PlayerImage)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(height:390)
+                        
+                    }
+                    .frame(height:420)
+                    .padding(.horizontal,20)
+                    .padding(.top,70)
                     
                     ScrollView(.vertical){
                         LazyVStack{
@@ -160,20 +169,6 @@ struct TradeCardView: View {
                 
                 
                 
-                Image("fzbackground")
-                    .resizable()
-                    .padding(.horizontal,30)
-                    .padding(.vertical,80)
-                    .padding(.bottom,200)
-                
-                
-                Image(PlayerImage)
-                    .resizable()
-                    .scaledToFit()
-                    .padding(.bottom,200)
-                    .padding(.horizontal,30)
-                    .padding(.vertical,80)
-                
                 
                 
                 
@@ -203,7 +198,9 @@ struct TradeCardView: View {
                     
                 }
                 .offset(x:100,y:-200)
+                
             }
+            
         }
 }
 
@@ -253,6 +250,8 @@ To earn a higher placing that would match some of the raw numbers he would have 
 \"Every decision in my career was made by me so far and I felt like a change was needed, new challenges and obstacles were something that I was looking for in order to get to the level I want to be at.\"
 """, PlayerTeamLogo: "Mouz Logo", PlayerSignatureLogo: "FROZEN", PlayerImage: "FrozenImage")
 
+
+
 #Preview {
-    Frozen
+    Twistzz
 }
