@@ -10,12 +10,20 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack{
-                List{
-                    NavigationLink(destination: Twistzz){
-                        Navigation(CoverPhoto: "Twistzz", playerName: "Twistzz", Discription: "The Best Hair among all Players")
-                            
-                    }
+            List{
+                NavigationLink(destination: Twistzz){
+                    Navigation(CoverPhoto: "Twistzz", playerName: "twistzz", Discription: "The Best Hair among all Players")
                 }
+                NavigationLink(destination: Rain){
+                    Navigation(CoverPhoto: "raincs", playerName: "rain", Discription: "The Great leader, the King of an age")
+                }
+                NavigationLink(destination: Broky){
+                    Navigation(CoverPhoto: "broky", playerName: "broky", Discription: "The young Blood of FaZe Clan, Top 10 in the world")
+                }
+                NavigationLink(destination: Ropz){
+                    Navigation(CoverPhoto: "ropz", playerName: "ropz", Discription: "The Best Rifler in the Whole World")
+                }
+            }
                 .navigationTitle("The Legends of CSGO")
             
         }
