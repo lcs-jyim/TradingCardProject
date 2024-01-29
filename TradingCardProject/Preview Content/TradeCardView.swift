@@ -90,6 +90,7 @@ struct TradeCardView: View {
                     .padding(.horizontal,20)
                     .padding(.top,70)
                     
+                    
                     ScrollView(.vertical){
                         LazyVStack{
                             
@@ -149,22 +150,22 @@ struct TradeCardView: View {
                                             }
                                             
                                         }
-                                    }
-                                }
-                            }
-                            
-                            Text(PlayerIntroduction)
-                            
-                            Spacer()
-                            
-                        }
-                        .foregroundColor(.white)
-                        .padding(.horizontal,10)
-                    }
-                    .ignoresSafeArea()
-                    .background{Image("blastbackground").resizable() .opacity(0.7) .ignoresSafeArea()}
+                                   }
+                             }
+                           }
+ 
+                           Text(PlayerIntroduction)
+                        
+                          Spacer()
+                        
+                      }
+                      .foregroundColor(.white)
+                      .padding(.horizontal,10)
+                 }
+                 .ignoresSafeArea()
+                .background{Image("blastbackground").resizable() .opacity(0.7) .ignoresSafeArea()}
                     
-                }
+         }
                 
                 
                 
@@ -200,6 +201,8 @@ struct TradeCardView: View {
                 .offset(x:100,y:-200)
                 
             }
+            .navigationTitle("")
+            .navigationBarTitleDisplayMode(.inline)
             
         }
 }
@@ -251,7 +254,18 @@ To earn a higher placing that would match some of the raw numbers he would have 
 """, PlayerTeamLogo: "Mouz Logo", PlayerSignatureLogo: "FROZEN", PlayerImage: "FrozenImage")
 
 
-
 #Preview {
     Twistzz
+}
+#Preview {
+    Rain
+}
+#Preview {
+    Broky
+}
+#Preview {
+    Ropz
+}
+#Preview {
+    Frozen
 }
