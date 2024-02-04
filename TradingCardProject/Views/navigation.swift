@@ -8,23 +8,21 @@
 import SwiftUI
 
 struct Navigation: View {
+    let item: CardView
     
-    let CoverPhoto: String
-    let playerName: String
-    let Discription: String
     
     var body: some View {
         HStack{
-            Image(CoverPhoto)
+            Image(item.playerImage)
                 .resizable()
                 .frame(width: 60,height: 80)
                 .offset(y:15)
                 .clipShape(.circle)
             VStack(alignment:.leading){
-                Text(playerName)
+                Text(item.PlayNameShort)
                     .font(.title2)
                     .fontWeight(.semibold)
-                Text(Discription)
+                Text(item.Discription)
                     
             }
         }
@@ -32,5 +30,7 @@ struct Navigation: View {
 }
 
 #Preview {
-    Navigation(CoverPhoto: "Twistzz", playerName: "Twistzz", Discription: "The Best Hair among all Players")
+    NavigationStack{
+        Navigation(item:Twistzz)
+    }
 }

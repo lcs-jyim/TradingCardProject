@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF824C362B5DF04700B86200 /* TradingCardProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C352B5DF04700B86200 /* TradingCardProjectApp.swift */; };
-		BF824C382B5DF04700B86200 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C372B5DF04700B86200 /* ContentView.swift */; };
+		BF824C382B5DF04700B86200 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C372B5DF04700B86200 /* ListView.swift */; };
 		BF824C3A2B5DF04800B86200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF824C392B5DF04800B86200 /* Assets.xcassets */; };
 		BF824C3D2B5DF04800B86200 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF824C3C2B5DF04800B86200 /* Preview Assets.xcassets */; };
 		BF824C472B5DF04800B86200 /* TradingCardProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C462B5DF04800B86200 /* TradingCardProjectTests.swift */; };
@@ -16,6 +16,7 @@
 		BF824C532B5DF04800B86200 /* TradingCardProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C522B5DF04800B86200 /* TradingCardProjectUITestsLaunchTests.swift */; };
 		BF824C602B5DF13600B86200 /* TradeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C5F2B5DF13600B86200 /* TradeCardView.swift */; };
 		BF824C622B609B3200B86200 /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF824C612B609B3200B86200 /* navigation.swift */; };
+		BFBF62522B6DEAC20058F77F /* ListofCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBF62512B6DEAC20058F77F /* ListofCards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 /* Begin PBXFileReference section */
 		BF824C322B5DF04700B86200 /* TradingCardProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCardProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF824C352B5DF04700B86200 /* TradingCardProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardProjectApp.swift; sourceTree = "<group>"; };
-		BF824C372B5DF04700B86200 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF824C372B5DF04700B86200 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		BF824C392B5DF04800B86200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF824C3C2B5DF04800B86200 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF824C422B5DF04800B86200 /* TradingCardProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradingCardProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +49,7 @@
 		BF824C522B5DF04800B86200 /* TradingCardProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF824C5F2B5DF13600B86200 /* TradeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeCardView.swift; sourceTree = "<group>"; };
 		BF824C612B609B3200B86200 /* navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigation.swift; sourceTree = "<group>"; };
+		BFBF62512B6DEAC20058F77F /* ListofCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListofCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				BF824C352B5DF04700B86200 /* TradingCardProjectApp.swift */,
-				BF824C372B5DF04700B86200 /* ContentView.swift */,
+				BFBF62562B6DF5B10058F77F /* Views */,
 				BF824C392B5DF04800B86200 /* Assets.xcassets */,
 				BF824C3B2B5DF04800B86200 /* Preview Content */,
 			);
@@ -110,8 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				BF824C3C2B5DF04800B86200 /* Preview Assets.xcassets */,
-				BF824C5F2B5DF13600B86200 /* TradeCardView.swift */,
-				BF824C612B609B3200B86200 /* navigation.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -131,6 +131,25 @@
 				BF824C522B5DF04800B86200 /* TradingCardProjectUITestsLaunchTests.swift */,
 			);
 			path = TradingCardProjectUITests;
+			sourceTree = "<group>";
+		};
+		BFBF62552B6DF59C0058F77F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFBF62512B6DEAC20058F77F /* ListofCards.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFBF62562B6DF5B10058F77F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF824C372B5DF04700B86200 /* ListView.swift */,
+				BF824C5F2B5DF13600B86200 /* TradeCardView.swift */,
+				BF824C612B609B3200B86200 /* navigation.swift */,
+				BFBF62552B6DF59C0058F77F /* Model */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF824C382B5DF04700B86200 /* ContentView.swift in Sources */,
+				BF824C382B5DF04700B86200 /* ListView.swift in Sources */,
 				BF824C362B5DF04700B86200 /* TradingCardProjectApp.swift in Sources */,
+				BFBF62522B6DEAC20058F77F /* ListofCards.swift in Sources */,
 				BF824C602B5DF13600B86200 /* TradeCardView.swift in Sources */,
 				BF824C622B609B3200B86200 /* navigation.swift in Sources */,
 			);
